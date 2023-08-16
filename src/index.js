@@ -6,6 +6,7 @@ import {PageAuth} from "./components/pages/page-auth";
 import {PageReg} from "./components/pages/page-reg";
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <div>
