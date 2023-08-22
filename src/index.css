@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,7 +7,6 @@
   font-family: Inter;
   font-weight: 400;
   src: url("./assets/fonts/Inter-Regular.ttf");
-
 }
 @font-face {
   font-family: Montserrat;
@@ -19,14 +18,25 @@
   font-weight: 600;
   src: url("./assets/fonts/Montserrat-SemiBold.ttf");
 }
+@font-face {
+  font-family: Montserrat;
+  font-weight: 700;
+  src: url("./assets/fonts/Montserrat-Bold.ttf");
+}
 
 body {
-  color: #FFF;
+  color: #fff;
   font-size: 12px;
   font-style: normal;
   line-height: normal;
-  font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #D9D9D9;
+  background: #d9d9d9;
+}
+
+.container {
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
 }

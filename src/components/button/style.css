@@ -1,0 +1,11 @@
+button {
+  width: 274px;
+  height: 51px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #1e34f5 0%, #3e83e7 100%);
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
